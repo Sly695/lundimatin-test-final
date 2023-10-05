@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Lundi matin test</title>
+    <link rel="stylesheet" href="index.css" </head>
+
+<body>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <div class="header">Rechercher un contact</div>
+    <div class="onglet-information">
+        <h2 id="customer-name"></h2>
+        <button class="button-edit">ÉDITER</button>
+    </div>
+    <div>
+        <div class="search_bar">
+            <div class="informations-wrap">
+                <h2 class="informations-title">Informations</h2>
+                <div class="listing-informations">
+                    <ul>
+                        <li>Prénom Nom</li>
+                        <li>Téléphone</li>
+                        <li>Email</li>
+                        <li>Adresse</li>
+                    </ul>
+                    <div class="bar"></div>
+                    <ul>
+                        <input class="input-update" id="customer-input-name" disabled></input>
+                        <input class="input-update" id="customer-input-tel" disabled></input>
+                        <input class="input-update" id="customer-input-email" disabled></input>
+                        <input class="input-update" id="customer-input-adresse" disabled></input>
+                    </ul>
+                </div>
+                <div class="wrap-button-update">
+                    <button class="cancel-button">ANNULER</button>
+                    <button class="save-button">ENREGISTRER</button>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+<script src="customer.js"></script>
+
+</html>
